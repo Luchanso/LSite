@@ -126,7 +126,6 @@ class Main extends Sprite
 	private function gmailHref(e:MouseEvent):Void 
 	{
 		Lib.getURL(new URLRequest(HTTPGmail), targetWindow);
-		
 	}
 	
 	private function skypeRef(e:MouseEvent):Void 
